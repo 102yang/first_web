@@ -24,3 +24,13 @@ ol{
     border-right: 2px solid blueviolet;
     margin: 0px;
 }
+@media(max-width:600px){
+    .grid{
+        display: block;
+    }
+}
+
+.grid2{
+    display:grid;
+    grid-template-columns: 1fr 50px 50px;
+}
